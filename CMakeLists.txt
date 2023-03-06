@@ -55,7 +55,16 @@ set(LIBS
         sylar
         dl
         pthread
-        yaml-cpp)
+        yaml-cpp
+        -lmuduo_base
+        -lmuduo_net
+        -lpthread
+)
+
+add_executable(test_muduo tests/test_muduo.cpp)
+add_dependencies(test_muduo sylar)
+force_redefine_file_macro_for_sources(test_muduo) #__FILE__
+target_link_libraries(test_muduo ${LIBS})
 
 add_executable(test tests/test.cpp)
 add_dependencies(test sylar)
