@@ -1,9 +1,9 @@
 # 学习和实现基于协程的高并发服务器框架
 ## 学习参考
-1、https://github.com/sylar-yin/sylar.git
-2、https://github.com/zhongluqiang/sylar-from-scratch.git
-3、https://www.midlane.top/wiki/pages/viewpage.action?pageId=10060952
-4、https://blog.csdn.net/weixin_46267443/category_11487591.html
+1、https://github.com/sylar-yin/sylar.git  
+2、https://github.com/zhongluqiang/sylar-from-scratch.git  
+3、https://www.midlane.top/wiki/pages/viewpage.action?pageId=10060952  
+4、https://blog.csdn.net/weixin_46267443/category_11487591.html  
 ## 模块内容
 1、日志模块
 仿照log4j的格式，以流的形式写日志和格式化日志，方便从日志中定位程序运行过程中出现的问题
