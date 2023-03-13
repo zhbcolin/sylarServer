@@ -1101,30 +1101,6 @@ sylar/util.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/util.cpp.s
 .PHONY : sylar/util.cpp.s
 
-sylar/worker.o: sylar/worker.cpp.o
-.PHONY : sylar/worker.o
-
-# target to build an object file
-sylar/worker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/worker.cpp.o
-.PHONY : sylar/worker.cpp.o
-
-sylar/worker.i: sylar/worker.cpp.i
-.PHONY : sylar/worker.i
-
-# target to preprocess a source file
-sylar/worker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/worker.cpp.i
-.PHONY : sylar/worker.cpp.i
-
-sylar/worker.s: sylar/worker.cpp.s
-.PHONY : sylar/worker.s
-
-# target to generate assembly for a file
-sylar/worker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/worker.cpp.s
-.PHONY : sylar/worker.cpp.s
-
 tests/test.o: tests/test.cpp.o
 .PHONY : tests/test.o
 
@@ -1722,9 +1698,6 @@ help:
 	@echo "... sylar/util.o"
 	@echo "... sylar/util.i"
 	@echo "... sylar/util.s"
-	@echo "... sylar/worker.o"
-	@echo "... sylar/worker.i"
-	@echo "... sylar/worker.s"
 	@echo "... tests/test.o"
 	@echo "... tests/test.i"
 	@echo "... tests/test.s"

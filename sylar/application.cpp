@@ -162,9 +162,15 @@ namespace sylar {
             ofs << getpid();
         }
 
+        auto http_confs = g_http_servers_conf->getValue();
+        for(auto& i : http_confs) {
+            SYLAR_LOG_INFO(g_logger) << LexicalCast<HttpServerConf, std::string>()(i);
+        }
+
         sylar::IOManager iom(1);
         iom.schedule(std::bind(&Application::run_fiber, this));
         iom.stop();
+
         return 0;
     }
 
@@ -216,7 +222,6 @@ namespace sylar {
             }
             server->start();
             m_httpservers.push_back(server);
-
         }
 
         while(true) {

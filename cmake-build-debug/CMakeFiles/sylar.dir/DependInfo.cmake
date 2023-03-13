@@ -36,7 +36,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/timer.cpp" "CMakeFiles/sylar.dir/sylar/timer.cpp.o" "gcc" "CMakeFiles/sylar.dir/sylar/timer.cpp.o.d"
   "/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/uri.rl.cc" "CMakeFiles/sylar.dir/sylar/uri.rl.cc.o" "gcc" "CMakeFiles/sylar.dir/sylar/uri.rl.cc.o.d"
   "/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/util.cpp" "CMakeFiles/sylar.dir/sylar/util.cpp.o" "gcc" "CMakeFiles/sylar.dir/sylar/util.cpp.o.d"
-  "/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/worker.cpp" "CMakeFiles/sylar.dir/sylar/worker.cpp.o" "gcc" "CMakeFiles/sylar.dir/sylar/worker.cpp.o.d"
   )
 
 # Targets to which this target links.

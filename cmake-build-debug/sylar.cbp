@@ -1230,12 +1230,6 @@
 		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/util.h">
 			<Option target="sylar"/>
 		</Unit>
-		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/worker.cpp">
-			<Option target="sylar"/>
-		</Unit>
-		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/worker.h">
-			<Option target="sylar"/>
-		</Unit>
 		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test.cpp">
 			<Option target="test"/>
 		</Unit>

@@ -37,7 +37,7 @@ set(LIB_SRC
         sylar/daemon.cpp
         sylar/env.cpp
         sylar/application.cpp
-        sylar/worker.cpp)
+        )
 
 ragelmaker(sylar/http/http11_parser.rl LIB_SRC ${CMAKE_CURRENT_SOURCE_DIR}/sylar/http)
 ragelmaker(sylar/http/httpclient_parser.rl LIB_SRC ${CMAKE_CURRENT_SOURCE_DIR}/sylar/http)

@@ -60,8 +60,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/sylar.dir/sylar/uri.rl.cc.o.d"
   "CMakeFiles/sylar.dir/sylar/util.cpp.o"
   "CMakeFiles/sylar.dir/sylar/util.cpp.o.d"
-  "CMakeFiles/sylar.dir/sylar/worker.cpp.o"
-  "CMakeFiles/sylar.dir/sylar/worker.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
