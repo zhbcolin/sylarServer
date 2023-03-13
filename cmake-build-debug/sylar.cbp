@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sylar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sylar">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/lib/libsylar.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 sylar"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sylar/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/lib/libsylar.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 sylar/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_config">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_config" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_config"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_config/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_config" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_config/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_thread">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_thread"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_thread/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_thread" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_thread/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_util">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_util" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_util"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_util/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_util" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_util/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_fiber">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_fiber" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_fiber"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_fiber/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_fiber" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_fiber/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_schedule">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_schedule" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_schedule"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_schedule/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_schedule" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_schedule/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_iomanager">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_iomanager" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_iomanager"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_iomanager/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_iomanager" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_iomanager/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_hook">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_hook" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_hook"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_hook/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_hook" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_hook/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_address">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_address" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_address"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_address/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_address" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_address/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_socket">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_socket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_socket"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_socket/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_socket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_socket/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_bytearray">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_bytearray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_bytearray"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_bytearray/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_bytearray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_bytearray/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_http">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_http" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_http"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_http/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_http" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_http/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_http_parser">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_http_parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_http_parser"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_http_parser/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_http_parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_http_parser/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_tcp_server">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_tcp_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_tcp_server"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_tcp_server/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_tcp_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_tcp_server/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_http_server">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_http_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_http_server"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_http_server/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_http_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_http_server/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_http_connection">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_http_connection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_http_connection"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_http_connection/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_http_connection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_http_connection/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_uri">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_uri" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_uri"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_uri/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_uri" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_uri/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echo_server">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/echo_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo_server"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echo_server/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/echo_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo_server/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_daemon">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_daemon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_daemon"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_daemon/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_daemon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_daemon/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_env">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_env" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_env"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_env/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_env" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_env/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_application">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_application" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_application"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_application/fast">
+				<Option output="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/test_application" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/."/>
+					<Add directory="/user/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_application/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/examples/echo_server.cpp">
+			<Option target="echo_server"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/address.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/address.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/application.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/application.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/bytearray.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/bytearray.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/config.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/config.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/daemon.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/daemon.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/env.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/env.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/fd_manager.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/fd_manager.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/fiber.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/fiber.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/hook.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/hook.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http11_parser.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http11_parser.rl.cc">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http11_parser.rl.cc.rule">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http_connection.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http_connection.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http_parser.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http_parser.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http_server.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http_server.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http_session.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/http_session.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/httpclient_parser.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/httpclient_parser.rl.cc">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/httpclient_parser.rl.cc.rule">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/servlet.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/http/servlet.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/iomanager.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/iomanager.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/log.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/log.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/scheduler.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/scheduler.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/socket.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/socket.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/socket_stream.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/socket_stream.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/stream.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/stream.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/tcp_server.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/tcp_server.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/thread.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/thread.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/timer.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/timer.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/uri.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/uri.rl.cc">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/uri.rl.cc.rule">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/util.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/util.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/worker.cpp">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/sylar/worker.h">
+			<Option target="sylar"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_address.cpp">
+			<Option target="test_address"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_application.cpp">
+			<Option target="test_application"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_bytearray.cpp">
+			<Option target="test_bytearray"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_config.cpp">
+			<Option target="test_config"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_daemon.cpp">
+			<Option target="test_daemon"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_env.cpp">
+			<Option target="test_env"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_fiber.cpp">
+			<Option target="test_fiber"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_hook.cpp">
+			<Option target="test_hook"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_http.cpp">
+			<Option target="test_http"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_http_connection.cpp">
+			<Option target="test_http_connection"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_http_parser.cpp">
+			<Option target="test_http_parser"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_http_server.cpp">
+			<Option target="test_http_server"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_iomanager.cpp">
+			<Option target="test_iomanager"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_schedule.cpp">
+			<Option target="test_schedule"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_socket.cpp">
+			<Option target="test_socket"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_tcp_server.cpp">
+			<Option target="test_tcp_server"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_thread.cpp">
+			<Option target="test_thread"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_uri.cpp">
+			<Option target="test_uri"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/tests/test_util.cpp">
+			<Option target="test_util"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

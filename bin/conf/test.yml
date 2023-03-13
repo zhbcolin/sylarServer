@@ -1,4 +1,4 @@
-logs:
+logs3:
   - name : root
     level : info
     formatter : '%d%T%m%n'

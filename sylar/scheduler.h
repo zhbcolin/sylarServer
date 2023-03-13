@@ -52,6 +52,8 @@ namespace sylar {
                 tickle();
             }
         }
+
+        std::ostream& dump(std::ostream& os);
     protected:
         virtual void tickle();
         void run();

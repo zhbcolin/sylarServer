@@ -1,0 +1,4 @@
+2023-03-13 10:22:15	[INFO]LoadConfFile file=/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/conf/log.yml ok
+2023-03-13 10:22:15	[INFO]LoadConfFile file=/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/conf/test.yml ok
+2023-03-13 10:22:15	[INFO]LoadConfFile file=/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/conf/log2.yml ok
+2023-03-13 10:22:15	[INFO]LoadConfFile file=/home/colinzhb/CLionProjects/sylar_Cpp_server_learn/bin/conf/worker.yml ok

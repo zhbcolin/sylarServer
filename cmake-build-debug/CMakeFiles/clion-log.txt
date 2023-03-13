@@ -1,12 +1,4 @@
-/home/colinzhb/.cache/JetBrains/RemoteDev/dist/880329aca0c3c_CLion-2022.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/colinzhb/.cache/JetBrains/RemoteDev/dist/880329aca0c3c_CLion-2022.1.3/bin/ninja/linux/ninja -G Ninja -S /home/colinzhb/CLionProjects/sylar -B /home/colinzhb/CLionProjects/sylar/cmake-build-debug
-CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
-  Compatibility with CMake < 2.8.12 will be removed from a future version of
-  CMake.
-
-  Update the VERSION argument <min> value or use a ...<max> suffix to tell
-  CMake that the project does not need compatibility with older versions.
-
-
+/home/colinzhb/.cache/JetBrains/RemoteDev/dist/880329aca0c3c_CLion-2022.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/colinzhb/CLionProjects/sylar_Cpp_server_learn -B /home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/colinzhb/CLionProjects/sylar/cmake-build-debug
+-- Build files have been written to: /home/colinzhb/CLionProjects/sylar_Cpp_server_learn/cmake-build-debug
