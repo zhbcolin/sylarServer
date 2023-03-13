@@ -5,44 +5,8 @@
     <option name="openedFilesInfos">
       <list>
         <OpenedFileInfo>
-          <option name="caretOffset" value="8045" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/sylar/application.cpp" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="173" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/tests/test_application.cpp" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="465" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/sylar/application.h" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="183" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/bin/conf/server.yml" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="616" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/sylar/scheduler.cpp" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/tests/test_fiber.cpp" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="9449" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/sylar/iomanager.cpp" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="987" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/sylar/scheduler.h" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/sylar/http/servlet.cpp" />
-        </OpenedFileInfo>
-        <OpenedFileInfo>
-          <option name="caretOffset" value="0" />
-          <option name="fileUrl" value="file://$PROJECT_DIR$/sylar/http/servlet.h" />
+          <option name="caretOffset" value="1129" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/CMakeLists.txt" />
         </OpenedFileInfo>
       </list>
     </option>

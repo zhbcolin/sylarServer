@@ -224,10 +224,10 @@ namespace sylar {
             m_httpservers.push_back(server);
         }
 
-        while(true) {
-            SYLAR_LOG_INFO(g_logger) << "hello world";
-            usleep(1000 * 100);
-        }
+        //while(true) {
+        //    SYLAR_LOG_INFO(g_logger) << "hello world";
+        //    usleep(1000 * 100);
+        //}
         return 0;
     }
 
